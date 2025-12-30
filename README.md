@@ -1,5 +1,3 @@
-Conidia2 analysis pipeline (tables only)
-
 This repository contains a deterministic, command-line workflow to reproduce the
 summary tables used in the Conidia project manuscript. The analysis follows the
 definitions in the manuscript (severe score threshold, B = -ln(P), Bliss
@@ -15,10 +13,9 @@ Place the following input files in an input directory (default: current working 
 
 Run
 ---
-Create the conda environment:
-
-  conda env create -f environment.yml
-  conda activate conidia2
+conda env create -f environment.yml
+conda activate conidia2
+python run_analysis.py --input-dir . --output-dir outputs
 
 Run the pipeline:
 
