@@ -1,0 +1,1018 @@
+host,replicate_id,tissue,treatment_raw,isolate,concentration,score,is_mixture_treatment,source_file,n_components,is_mixture_clean,mixture_unknown,isolate_1,isolate_2,isolate_3,ratio_1,ratio_2,ratio_3,mixture_label,isolate_clean,treatment_id
+BTx398,Plant #1,leaf,AMP99 10 6,AMP99,1000000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #1,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #1,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #1,leaf,AMP99 10 5/2,AMP99,50000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #1,leaf,AMP99 10 4,AMP99,10000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #1,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #2,leaf,AMP99 10 6,AMP99,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #2,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #2,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #2,leaf,AMP99 10 5/2,AMP99,50000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #2,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #2,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #3,leaf,AMP99 10 6,AMP99,1000000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #3,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #3,leaf,AMP99 10 5,AMP99,100000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #3,leaf,AMP99 10 5/2,AMP99,50000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #3,leaf,AMP99 10 4,AMP99,10000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #3,leaf,AMP99 10 4/2,AMP99,5000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #4,leaf,AMP99 10 6,AMP99,1000000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #4,leaf,AMP99 10 6/2,AMP99,500000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #4,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #4,leaf,AMP99 10 5/2,AMP99,50000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #4,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #4,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #5,leaf,AMP99 10 6,AMP99,1000000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #5,leaf,AMP99 10 6/2,AMP99,500000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #5,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #5,leaf,AMP99 10 5/2,AMP99,50000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #5,leaf,AMP99 10 4,AMP99,10000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #5,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #6,leaf,AMP99 10 6,AMP99,1000000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #6,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #6,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #6,leaf,AMP99 10 5/2,AMP99,50000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #6,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #6,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #7,leaf,AMP99 10 6,AMP99,1000000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,Plant #7,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,Plant #7,leaf,AMP99 10 5,AMP99,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,Plant #7,leaf,AMP99 10 5/2,AMP99,50000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,Plant #7,leaf,AMP99 10 4,AMP99,10000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,Plant #7,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,Plant #1,leaf,AMP170 10 6,AMP170,1000000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #1,leaf,AMP170 10 6/2,AMP170,500000,3.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #1,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #1,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #1,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #1,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #2,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #2,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #2,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #2,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #2,leaf,AMP170 10 4,AMP170,10000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #2,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #3,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #3,leaf,AMP170 10 6/2,AMP170,500000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #3,leaf,AMP170 10 5,AMP170,100000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #3,leaf,AMP170 10 5/2,AMP170,50000,1.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #3,leaf,AMP170 10 4,AMP170,10000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #3,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #4,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #4,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #4,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #4,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #4,leaf,AMP170 10 4,AMP170,10000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #4,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #5,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #5,leaf,AMP170 10 6/2,AMP170,500000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #5,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #5,leaf,AMP170 10 5/2,AMP170,50000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #5,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #5,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #6,leaf,AMP170 10 6,AMP170,1000000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #6,leaf,AMP170 10 6/2,AMP170,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #6,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #6,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #6,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #6,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #7,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,Plant #7,leaf,AMP170 10 6/2,AMP170,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,Plant #7,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,Plant #7,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,Plant #7,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,Plant #7,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,Plant #1,leaf,Mixture 10 6,Mixture 10 6,1000000,4.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #1,leaf,Mixture 10 5,Mixture 10 5,100000,3.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #1,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #2,leaf,Mixture 10 6,Mixture 10 6,1000000,4,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #2,leaf,Mixture 10 5,Mixture 10 5,100000,3.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #2,leaf,Mixture 10 4,Mixture 10 4,10000,4,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #3,leaf,Mixture 10 6,Mixture 10 6,1000000,4.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #3,leaf,Mixture 10 5,Mixture 10 5,100000,3.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #3,leaf,Mixture 10 4,Mixture 10 4,10000,2.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #4,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #4,leaf,Mixture 10 5,Mixture 10 5,100000,4,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #4,leaf,Mixture 10 4,Mixture 10 4,10000,1.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #5,leaf,Mixture 10 6,Mixture 10 6,1000000,3,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #5,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #5,leaf,Mixture 10 4,Mixture 10 4,10000,2,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #6,leaf,Mixture 10 6,Mixture 10 6,1000000,2.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #6,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #6,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,Plant #7,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,Plant #7,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,Plant #7,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+RTx2536,Plant #1,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #1,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #1,leaf,AMP20 10 5,AMP20,100000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #1,leaf,AMP20 10 5/2,AMP20,50000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #1,leaf,AMP20 10 4,AMP20,10000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #1,leaf,AMP20 10 4/2,AMP20,5000,1.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #2,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #2,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #2,leaf,AMP20 10 5,AMP20,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #2,leaf,AMP20 10 5/2,AMP20,50000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #2,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #2,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #3,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #3,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #3,leaf,AMP20 10 5,AMP20,100000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #3,leaf,AMP20 10 5/2,AMP20,50000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #3,leaf,AMP20 10 4,AMP20,10000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #3,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #4,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #4,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #4,leaf,AMP20 10 5,AMP20,100000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #4,leaf,AMP20 10 5/2,AMP20,50000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #4,leaf,AMP20 10 4,AMP20,10000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #4,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #5,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #5,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #5,leaf,AMP20 10 5,AMP20,100000,1.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #5,leaf,AMP20 10 5/2,AMP20,50000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #5,leaf,AMP20 10 4,AMP20,10000,2,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #5,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #6,leaf,AMP20 10 6,AMP20,1000000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,Plant #6,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,Plant #6,leaf,AMP20 10 5,AMP20,100000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,Plant #6,leaf,AMP20 10 5/2,AMP20,50000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,Plant #6,leaf,AMP20 10 4,AMP20,10000,3.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,Plant #6,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,Plant #1,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #1,leaf,AMP27 10 6/2,AMP27,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #1,leaf,AMP27 10 5,AMP27,100000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #1,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #1,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #1,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #2,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #2,leaf,AMP27 10 6/2,AMP27,500000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #2,leaf,AMP27 10 5,AMP27,100000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #2,leaf,AMP27 10 5/2,AMP27,50000,4.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #2,leaf,AMP27 10 4,AMP27,10000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #2,leaf,AMP27 10 4/2,AMP27,5000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #3,leaf,AMP27 10 6,AMP27,1000000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #3,leaf,AMP27 10 6/2,AMP27,500000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #3,leaf,AMP27 10 5,AMP27,100000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #3,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #3,leaf,AMP27 10 4,AMP27,10000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #3,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #4,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #4,leaf,AMP27 10 6/2,AMP27,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #4,leaf,AMP27 10 5,AMP27,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #4,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #4,leaf,AMP27 10 4,AMP27,10000,4.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #4,leaf,AMP27 10 4/2,AMP27,5000,3,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #5,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #5,leaf,AMP27 10 6/2,AMP27,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #5,leaf,AMP27 10 5,AMP27,100000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #5,leaf,AMP27 10 5/2,AMP27,50000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #5,leaf,AMP27 10 4,AMP27,10000,3.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #5,leaf,AMP27 10 4/2,AMP27,5000,2.67,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #6,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,Plant #6,leaf,AMP27 10 6/2,AMP27,500000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+RTx2536,Plant #6,leaf,AMP27 10 5,AMP27,100000,5,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,Plant #6,leaf,AMP27 10 5/2,AMP27,50000,4,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,Plant #6,leaf,AMP27 10 4,AMP27,10000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,Plant #6,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,mixture_02_Raw score of second experiments.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,Plant #1,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #1,leaf,Mixture 10 5,Mixture,100000,3,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #1,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+RTx2536,Plant #2,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #2,leaf,Mixture 10 5,Mixture,100000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #2,leaf,Mixture 10 4,Mixture,10000,3.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+RTx2536,Plant #3,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #3,leaf,Mixture 10 5,Mixture,100000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #3,leaf,Mixture 10 4,Mixture,10000,3.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+RTx2536,Plant #4,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #4,leaf,Mixture 10 5,Mixture,100000,4.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #4,leaf,Mixture 10 4,Mixture,10000,3.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+RTx2536,Plant #5,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #5,leaf,Mixture 10 5,Mixture,100000,2.33,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #5,leaf,Mixture 10 4,Mixture,10000,2.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+RTx2536,Plant #6,leaf,Mixture 10 6,Mixture,1000000,5,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+RTx2536,Plant #6,leaf,Mixture 10 5,Mixture,100000,3.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+RTx2536,Plant #6,leaf,Mixture 10 4,Mixture,10000,3.67,TRUE,mixture_02_Raw score of second experiments.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #1,leaf,AMP20 10 6,AMP20,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #1,leaf,AMP20 10 6/2,AMP20,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #1,leaf,AMP20 10 5,AMP20,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #1,leaf,AMP20 10 5/2,AMP20,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #1,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #1,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #2,leaf,AMP20 10 6,AMP20,1000000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #2,leaf,AMP20 10 6/2,AMP20,500000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #2,leaf,AMP20 10 5,AMP20,100000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #2,leaf,AMP20 10 5/2,AMP20,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #2,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #2,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #3,leaf,AMP20 10 6,AMP20,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #3,leaf,AMP20 10 6/2,AMP20,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #3,leaf,AMP20 10 5,AMP20,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #3,leaf,AMP20 10 5/2,AMP20,50000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #3,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #3,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #4,leaf,AMP20 10 6,AMP20,1000000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #4,leaf,AMP20 10 6/2,AMP20,500000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #4,leaf,AMP20 10 5,AMP20,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #4,leaf,AMP20 10 5/2,AMP20,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #4,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #4,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #5,leaf,AMP20 10 6,AMP20,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #5,leaf,AMP20 10 6/2,AMP20,500000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #5,leaf,AMP20 10 5,AMP20,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #5,leaf,AMP20 10 5/2,AMP20,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #5,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #5,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #6,leaf,AMP20 10 6,AMP20,1000000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+IS18760,Plant #6,leaf,AMP20 10 6/2,AMP20,500000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+IS18760,Plant #6,leaf,AMP20 10 5,AMP20,100000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+IS18760,Plant #6,leaf,AMP20 10 5/2,AMP20,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+IS18760,Plant #6,leaf,AMP20 10 4,AMP20,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+IS18760,Plant #6,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+IS18760,Plant #1,leaf,AMP27 10 6,AMP27,1000000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #1,leaf,AMP27 10 6/2,AMP27,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #1,leaf,AMP27 10 5,AMP27,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #1,leaf,AMP27 10 5/2,AMP27,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #1,leaf,AMP27 10 4,AMP27,10000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #1,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #2,leaf,AMP27 10 6,AMP27,1000000,3.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #2,leaf,AMP27 10 6/2,AMP27,500000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #2,leaf,AMP27 10 5,AMP27,100000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #2,leaf,AMP27 10 5/2,AMP27,50000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #2,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #2,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #3,leaf,AMP27 10 6,AMP27,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #3,leaf,AMP27 10 6/2,AMP27,500000,4,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #3,leaf,AMP27 10 5,AMP27,100000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #3,leaf,AMP27 10 5/2,AMP27,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #3,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #3,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #4,leaf,AMP27 10 6,AMP27,1000000,4,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #4,leaf,AMP27 10 6/2,AMP27,500000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #4,leaf,AMP27 10 5,AMP27,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #4,leaf,AMP27 10 5/2,AMP27,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #4,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #4,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #5,leaf,AMP27 10 6,AMP27,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #5,leaf,AMP27 10 6/2,AMP27,500000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #5,leaf,AMP27 10 5,AMP27,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #5,leaf,AMP27 10 5/2,AMP27,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #5,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #5,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #6,leaf,AMP27 10 6,AMP27,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+IS18760,Plant #6,leaf,AMP27 10 6/2,AMP27,500000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e6
+IS18760,Plant #6,leaf,AMP27 10 5,AMP27,100000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+IS18760,Plant #6,leaf,AMP27 10 5/2,AMP27,50000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+IS18760,Plant #6,leaf,AMP27 10 4,AMP27,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+IS18760,Plant #6,leaf,AMP27 10 4/2,AMP27,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+IS18760,Plant #1,leaf,Mixture 10 6,Mixture,1000000,1.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #1,leaf,Mixture 10 5,Mixture,100000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #1,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #2,leaf,Mixture 10 6,Mixture,1000000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #2,leaf,Mixture 10 5,Mixture,100000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #2,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #3,leaf,Mixture 10 6,Mixture,1000000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #3,leaf,Mixture 10 5,Mixture,100000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #3,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #4,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #4,leaf,Mixture 10 5,Mixture,100000,1.75,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #4,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #5,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #5,leaf,Mixture 10 5,Mixture,100000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #5,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+IS18760,Plant #6,leaf,Mixture 10 6,Mixture,1000000,1.5,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e6
+IS18760,Plant #6,leaf,Mixture 10 5,Mixture,100000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e5
+IS18760,Plant #6,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27,,AMP20+AMP27_1e4
+Theis,Plant #1,leaf,AMP99 10 6,AMP99,1000000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #1,leaf,AMP99 10 6/2,AMP99,500000,3.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #1,leaf,AMP99 10 5,AMP99,100000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #1,leaf,AMP99 10 5/2,AMP99,50000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #1,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #1,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #2,leaf,AMP99 10 6,AMP99,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #2,leaf,AMP99 10 6/2,AMP99,500000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #2,leaf,AMP99 10 5,AMP99,100000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #2,leaf,AMP99 10 5/2,AMP99,50000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #2,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #2,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #3,leaf,AMP99 10 6,AMP99,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #3,leaf,AMP99 10 6/2,AMP99,500000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #3,leaf,AMP99 10 5,AMP99,100000,3.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #3,leaf,AMP99 10 5/2,AMP99,50000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #3,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #3,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #4,leaf,AMP99 10 6,AMP99,1000000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #4,leaf,AMP99 10 6/2,AMP99,500000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #4,leaf,AMP99 10 5,AMP99,100000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #4,leaf,AMP99 10 5/2,AMP99,50000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #4,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #4,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #5,leaf,AMP99 10 6,AMP99,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #5,leaf,AMP99 10 6/2,AMP99,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #5,leaf,AMP99 10 5,AMP99,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #5,leaf,AMP99 10 5/2,AMP99,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #5,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #5,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #6,leaf,AMP99 10 6,AMP99,1000000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+Theis,Plant #6,leaf,AMP99 10 6/2,AMP99,500000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+Theis,Plant #6,leaf,AMP99 10 5,AMP99,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+Theis,Plant #6,leaf,AMP99 10 5/2,AMP99,50000,3.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+Theis,Plant #6,leaf,AMP99 10 4,AMP99,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+Theis,Plant #6,leaf,AMP99 10 4/2,AMP99,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+Theis,Plant #1,leaf,AMP170 10 6,AMP170,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #1,leaf,AMP170 10 6/2,AMP170,500000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #1,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #1,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #1,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #1,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #2,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #2,leaf,AMP170 10 6/2,AMP170,500000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #2,leaf,AMP170 10 5,AMP170,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #2,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #2,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #2,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #3,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #3,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #3,leaf,AMP170 10 5,AMP170,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #3,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #3,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #3,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #4,leaf,AMP170 10 6,AMP170,1000000,4.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #4,leaf,AMP170 10 6/2,AMP170,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #4,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #4,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #4,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #4,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #5,leaf,AMP170 10 6,AMP170,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #5,leaf,AMP170 10 6/2,AMP170,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #5,leaf,AMP170 10 5,AMP170,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #5,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #5,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #5,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #6,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+Theis,Plant #6,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+Theis,Plant #6,leaf,AMP170 10 5,AMP170,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+Theis,Plant #6,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+Theis,Plant #6,leaf,AMP170 10 4,AMP170,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+Theis,Plant #6,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+Theis,Plant #1,leaf,Mixture 10 6,Mixture,1000000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #1,leaf,Mixture 10 5,Mixture,100000,3,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #1,leaf,Mixture 10 4,Mixture,10000,3,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+Theis,Plant #2,leaf,Mixture 10 6,Mixture,1000000,3.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #2,leaf,Mixture 10 5,Mixture,100000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #2,leaf,Mixture 10 4,Mixture,10000,3,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+Theis,Plant #3,leaf,Mixture 10 6,Mixture,1000000,3.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #3,leaf,Mixture 10 5,Mixture,100000,3,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #3,leaf,Mixture 10 4,Mixture,10000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+Theis,Plant #4,leaf,Mixture 10 6,Mixture,1000000,3.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #4,leaf,Mixture 10 5,Mixture,100000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #4,leaf,Mixture 10 4,Mixture,10000,1.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+Theis,Plant #5,leaf,Mixture 10 6,Mixture,1000000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #5,leaf,Mixture 10 5,Mixture,100000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #5,leaf,Mixture 10 4,Mixture,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+Theis,Plant #6,leaf,Mixture 10 6,Mixture,1000000,4,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+Theis,Plant #6,leaf,Mixture 10 5,Mixture,100000,2.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+Theis,Plant #6,leaf,Mixture 10 4,Mixture,10000,1.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+SH1152,Plant #1,leaf,FSP 35 10 6,FSP35,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #1,leaf,FSP 35  10 6/2,FSP35,500000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #1,leaf,FSP 35  10 5,FSP35,100000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #1,leaf,FSP 35  10 5/2,FSP35,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #1,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #1,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #2,leaf,FSP 35 10 6,FSP35,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #2,leaf,FSP 35  10 6/2,FSP35,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #2,leaf,FSP 35  10 5,FSP35,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #2,leaf,FSP 35  10 5/2,FSP35,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #2,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #2,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #3,leaf,FSP 35 10 6,FSP35,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #3,leaf,FSP 35  10 6/2,FSP35,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #3,leaf,FSP 35  10 5,FSP35,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #3,leaf,FSP 35  10 5/2,FSP35,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #3,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #3,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #4,leaf,FSP 35 10 6,FSP35,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #4,leaf,FSP 35  10 6/2,FSP35,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #4,leaf,FSP 35  10 5,FSP35,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #4,leaf,FSP 35  10 5/2,FSP35,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #4,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #4,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #5,leaf,FSP 35 10 6,FSP35,1000000,3.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #5,leaf,FSP 35  10 6/2,FSP35,500000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #5,leaf,FSP 35  10 5,FSP35,100000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #5,leaf,FSP 35  10 5/2,FSP35,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #5,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #5,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #6,leaf,FSP 35 10 6,FSP35,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e6
+SH1152,Plant #6,leaf,FSP 35  10 6/2,FSP35,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e6
+SH1152,Plant #6,leaf,FSP 35  10 5,FSP35,100000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e5
+SH1152,Plant #6,leaf,FSP 35  10 5/2,FSP35,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e5
+SH1152,Plant #6,leaf,FSP 35  10 4,FSP35,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_1e4
+SH1152,Plant #6,leaf,FSP 35 10 4/2,FSP35,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP35,,,1,,,,FSP35,FSP35_0.5e4
+SH1152,Plant #1,leaf,FSP53 10 6,FSP53,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #1,leaf,FSP53  10 6/2,FSP53,500000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #1,leaf,FSP53  10 5,FSP53,100000,3.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #1,leaf,FSP53  10 5/2,FSP53,50000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #1,leaf,FSP53  10 4,FSP53,10000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #1,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #2,leaf,FSP53 10 6,FSP53,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #2,leaf,FSP53  10 6/2,FSP53,500000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #2,leaf,FSP53  10 5,FSP53,100000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #2,leaf,FSP53  10 5/2,FSP53,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #2,leaf,FSP53  10 4,FSP53,10000,3,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #2,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #3,leaf,FSP53 10 6,FSP53,1000000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #3,leaf,FSP53  10 6/2,FSP53,500000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #3,leaf,FSP53  10 5,FSP53,100000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #3,leaf,FSP53  10 5/2,FSP53,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #3,leaf,FSP53  10 4,FSP53,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #3,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #4,leaf,FSP53 10 6,FSP53,1000000,2.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #4,leaf,FSP53  10 6/2,FSP53,500000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #4,leaf,FSP53  10 5,FSP53,100000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #4,leaf,FSP53  10 5/2,FSP53,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #4,leaf,FSP53  10 4,FSP53,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #4,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #5,leaf,FSP53 10 6,FSP53,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #5,leaf,FSP53  10 6/2,FSP53,500000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #5,leaf,FSP53  10 5,FSP53,100000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #5,leaf,FSP53  10 5/2,FSP53,50000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #5,leaf,FSP53  10 4,FSP53,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #5,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #6,leaf,FSP53 10 6,FSP53,1000000,2,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e6
+SH1152,Plant #6,leaf,FSP53  10 6/2,FSP53,500000,2.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e6
+SH1152,Plant #6,leaf,FSP53  10 5,FSP53,100000,1.67,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e5
+SH1152,Plant #6,leaf,FSP53  10 5/2,FSP53,50000,1.33,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e5
+SH1152,Plant #6,leaf,FSP53  10 4,FSP53,10000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_1e4
+SH1152,Plant #6,leaf,FSP53 10 4/2,FSP53,5000,1,FALSE,mixture_03_Experiment 3 Leaf Assay.xlsx,1,FALSE,FALSE,FSP53,,,1,,,,FSP53,FSP53_0.5e4
+SH1152,Plant #1,leaf,Mixture 10 6,Mixture 10 6,1000000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #1,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #1,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+SH1152,Plant #2,leaf,Mixture 10 6,Mixture 10 6,1000000,3,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #2,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #2,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+SH1152,Plant #3,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #3,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #3,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+SH1152,Plant #4,leaf,Mixture 10 6,Mixture 10 6,1000000,2.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #4,leaf,Mixture 10 5,Mixture 10 5,100000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #4,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+SH1152,Plant #5,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #5,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #5,leaf,Mixture 10 4,Mixture 10 4,10000,2,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+SH1152,Plant #6,leaf,Mixture 10 6,Mixture 10 6,1000000,3.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e6
+SH1152,Plant #6,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e5
+SH1152,Plant #6,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,mixture_03_Experiment 3 Leaf Assay.xlsx,2,TRUE,TRUE,FSP35,FSP53,,1,1,,FSP35+FSP53,,FSP35+FSP53_1e4
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,2.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,2.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,3,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 6/2,AMP155,500000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e6
+BTx398,,leaf,AMP155 10 5,AMP155,100000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5,AMP155,100000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5,AMP155,100000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5,AMP155,100000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5,AMP155,100000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5,AMP155,100000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 5/2,AMP155,50000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e5
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4,AMP155,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP155 10 4/2,AMP155,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_0.5e4
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.33,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.33,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e5
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1.33,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e4
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP155 10 6,AMP155,1000000,3.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP155,,,1,,,,AMP155,AMP155_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,4.33,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1.67,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,4,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,1,TRUE,TRUE,AMP155,AMP170,,1,1,,AMP155+AMP170,,AMP155+AMP170_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,3,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,3,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99,AMP99,1000000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,2,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,5,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,1,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,5,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,4.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,2.33,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP99&170,AMP99,1000000,1.67,TRUE,BTx398_Mixture_con2.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,3.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,3.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,2.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,4.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,5,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,2.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.67,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,2.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con2.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,4,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,3.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,4,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,4.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 6/2,AMP99,500000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e6
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,2.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5,AMP99,100000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,4.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,3.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,4.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 5/2,AMP99,50000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e5
+BTx398,,leaf,AMP99 10 4,AMP99,10000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,3,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4,AMP99,10000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,3.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP99 10 4/2,AMP99,5000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_0.5e4
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,500000,3.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e6
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,3.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,3.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,2.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,4.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 6/2,AMP170,50000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,2.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5,AMP170,100000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 5/2,AMP170,50000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e5
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4,AMP170,10000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,AMP170 10 4/2,AMP170,5000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_0.5e4
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,4.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,4,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,4.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,3,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,3.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,3.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,3.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,4,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 5,Mixture 10 5,100000,1.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e5
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,4,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,2.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,2,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,Mixture 10 4,Mixture 10 4,10000,1,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e4
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,2,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,4,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP170 10 6,AMP170,1000000,1.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP170,,,1,,,,AMP170,AMP170_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,2.33,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,3,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,1.67,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,5,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,3,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,AMP99 10 6,AMP99,1000000,1,FALSE,BTx398_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP99,,,1,,,,AMP99,AMP99_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,1,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,1.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,5,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,4.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,2.33,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+BTx398,,leaf,Mixture 10 6,Mixture 10 6,1000000,1.67,TRUE,BTx398_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP99,AMP170,,1,1,,AMP99+AMP170,,AMP99+AMP170_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,2.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,2.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 6/2,AMP77,500000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e6
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5,AMP77,100000,3.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 5/2,AMP77,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e5
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4,AMP77,10000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP77 10 4/2,AMP77,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_0.5e4
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,2.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,4.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,2.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 6/2,AMP207,50000,4.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5,AMP207,100000,4,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 5/2,AMP207,50000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e5
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4,AMP207,10000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,AMP207 10 4/2,AMP207,5000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_0.5e4
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,3,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,2.67,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,3,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,3.67,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,3,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,3.67,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,1.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,1.67,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,2.67,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture,100000,2,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 5_1e5
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture,10000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 4_1e4
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP77 10 6,AMP77,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP77,,,1,,,,AMP77,AMP77_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,5,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,5,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,2,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,1.33,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,1.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,5,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,AMP207 10 6,AMP207,1000000,3.67,FALSE,RTx2536_Mixture_con2.xlsx,1,FALSE,FALSE,AMP207,,,1,,,,AMP207,AMP207_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,1.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture,1000000,2.33,TRUE,RTx2536_Mixture_con2.xlsx,2,TRUE,TRUE,AMP77,AMP207,,1,1,,AMP77+AMP207,,AMP77+AMP20710 6_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6,AMP20,1000000,3.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 6/2,AMP20,500000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e6
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,4.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,3.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,3,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,1.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5,AMP20,100000,3.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,4.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,3,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,4.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,2,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 5/2,AMP20,50000,3.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e5
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,4.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,2,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4,AMP20,10000,3.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_1e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP20 10 4/2,AMP20,5000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP20,,,1,,,,AMP20,AMP20_0.5e4
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,4,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6,AMP27,1000000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e6
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,4,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,4,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 6/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,4.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,2.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,4,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5,AMP27,100000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,4.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,5,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,2.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 5/2,AMP27,50000,4,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e5
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,1,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,3,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,3,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,4.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,3.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4,AMP27,10000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_1e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,2.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,3,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,2.67,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,AMP27 10 4/2,AMP27,5000,2.33,FALSE,RTx2536_Mixture_con_ex2_1.xlsx,1,FALSE,FALSE,AMP27,,,1,,,,AMP27,AMP27_0.5e4
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 6,Mixture ,1000000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 6,,AMP20+AMP27 6_1e6
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,3,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,5,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,4.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,2.33,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 5,Mixture ,100000,3.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 5,,AMP20+AMP27 5_1e5
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,1,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,3.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,3.33,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,3.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,2.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
+RTx2536,,leaf,Mixture 10 4,Mixture ,10000,3.67,TRUE,RTx2536_Mixture_con_ex2_1.xlsx,2,TRUE,TRUE,AMP20,AMP27,,1,1,,AMP20+AMP27 4,,AMP20+AMP27 4_1e4
