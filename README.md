@@ -8,7 +8,7 @@ The repository contains curated master tables and table-generating analysis
 scripts. It intentionally does **not** include manuscript figure-generation code.
 
 > Note: the repository name retains the original project codename used during
-> development and in the archived Zenodo release (DOI: 10.5281/zenodo.18101963).
+> development and in the archived Zenodo release (DOI: 10.5281/zenodo.20574527).
 > It does not imply a formal topological analysis; the manuscript reports
 > descriptive dose–response, high-dose severe-disease, Bliss-independence, and
 > regrowth summaries.
