@@ -1,15 +1,29 @@
 # host-defense-topology
 
-Reproducible analysis workflow for quantitative host defense thresholds and mixed-isolate disease outcomes in the sorghum–*Colletotrichum sublineola* pathosystem.
+Reproducible analysis workflow for quantitative dose–response and mixed-isolate
+analyses of host-dependent disease response in the sorghum–*Colletotrichum
+sublineola* pathosystem.
 
-The repository contains curated master tables and table-generating analysis scripts. It intentionally does **not** include manuscript figure-generation code.
+The repository contains curated master tables and table-generating analysis
+scripts. It intentionally does **not** include manuscript figure-generation code.
+
+> Note: the repository name retains the original project codename used during
+> development and in the archived Zenodo release (DOI: 10.5281/zenodo.18101963).
+> It does not imply a formal topological analysis; the manuscript reports
+> descriptive dose–response, high-dose severe-disease, Bliss-independence, and
+> regrowth summaries.
 
 ## Core definitions
 
-- Severe disease is defined as disease score >= 4.
-- Logistic dose-response fits estimate the inoculum threshold associated with severe disease and the steepness of the severe-disease response.
-- The high-dose barrier summary is defined as `B_dose = -ln(P_max)`, where `P_max` is the observed severe-disease probability at the highest tested inoculum concentration.
-- Mixed-isolate outcomes are summarized as deviation from Bliss independence: `delta_bliss = observed_p_severe - expected_p_severe`.
+- Severe disease is defined as disease score >= 4 on the 1–5 acervulus-based scale.
+- Logistic dose-response fits estimate the inoculum concentration associated with
+  50% severe disease (`C50`) and the dose-response slope (`alpha`).
+- High-dose host response is summarized as the observed severe-disease probability
+  at the highest tested inoculum concentration (`P_max`); `B_dose = -ln(P_max)` is
+  reported only as a descriptive transformation for scale comparison, not as a
+  mechanistic or energetic measure of resistance.
+- Mixed-isolate outcomes are summarized as deviation from Bliss independence:
+  `delta_bliss = observed_p_severe - expected_p_severe`.
 - Regrowth effects are summarized as `delta_B = B_round2 - B_round1`.
 
 ## Input files
