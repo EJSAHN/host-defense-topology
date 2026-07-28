@@ -1,54 +1,106 @@
 # Data dictionary
 
-## `dose_response_master.csv`
+## `data/recovered_ordinal_scores.csv`
 
-Curated observation-level data for single-isolate dose-response analyses.
+One row per digit-level technical subscore.
 
-Key columns:
+| Field | Meaning |
+|---|---|
+| `experiment_id` | Stable source-experiment identifier |
+| `experiment_label` | Reader-facing experiment label |
+| `publication_status` | `published` or `historical` |
+| `source_workbook` | Source workbook |
+| `source_row`, `source_column` | Original workbook location |
+| `host` | Host genotype or accession |
+| `host_type` | Sorghum or johnsongrass |
+| `plant_id` | Block-specific plant identifier |
+| `treatment_class` | `single` or `mixture` |
+| `isolate_1`, `isolate_2` | Component isolate identities |
+| `mixture_ratio` | Mixture ratio when applicable |
+| `total_dose_conidia_per_ml` | Applied single-isolate dose or total mixture dose |
+| `component_dose_conidia_per_ml` | Dose of each component in the treatment |
+| `subsample_id` | Technical subscore index within a plant-treatment cell |
+| `ordinal_score` | Disease score from 1 to 5 |
 
-- `host`: host genotype or accession.
-- `replicate_id`: plant / replicate identifier when available.
-- `tissue`: evaluated tissue, when available.
-- `treatment_raw`: original treatment label from the source file.
-- `isolate`: raw or standardized treatment label.
-- `isolate_clean`: cleaned single-isolate identifier; blank for mixed-isolate rows.
-- `concentration`: inoculum concentration in conidia mL-1.
-- `score`: disease severity score.
-- `is_mixture_clean`: whether the row represents a mixed-isolate treatment after cleaning.
-- `isolate_1`, `isolate_2`, `isolate_3`: mixture components when applicable.
-- `mixture_label`: standardized mixture label when applicable.
-- `source_file`: source data file name.
+## `data/recovered_plant_condition_means.csv`
 
-## `mixture_master.csv`
+One row per plant-by-treatment cell. `plant_mean_score` is the mean of the digit-level technical subscores in that cell.
 
-Curated observation-level data for single- and mixed-isolate assays used for Bliss-independence summaries.
+## `data/experiment_design.csv`
 
-Key columns:
+Source experiment, publication status, assay scope, host, isolates, plant counts, dose series, mixture ratio, metadata limits, and allowed inference.
 
-- `host`: host genotype or accession.
-- `environment`: assay environment or context, for example `lab` or `GH`.
-- `treatment_raw`: original treatment label.
-- `isolate_clean`: cleaned single-isolate identifier for single-isolate controls.
-- `is_mixture_clean`: whether the row is a mixed-isolate treatment.
-- `isolate_1`, `isolate_2`, `isolate_3`: mixture components.
-- `ratio_1`, `ratio_2`, `ratio_3`: component ratios when available.
-- `mixture_label`: standardized mixture label.
-- `concentration`: inoculum concentration in conidia mL-1; fixed-dose assays without explicit concentration are represented as 1e6.
-- `score`: disease severity score.
-- `source_file`: source data file name.
+## `results/dose_trend_results.csv`
 
-## `barrier_summary_master.csv`
+Plant-level exact Page trend results, descriptive effect summaries, and family-specific Holm-adjusted P values.
 
-Curated summary-level data for regrowth, structural, and related high-dose barrier summaries.
+## `results/ordinal_gee_sensitivity.csv`
 
-Key columns:
+Cumulative-logit ordinal GEE sensitivity results, clustered by plant.
 
-- `experiment`: analysis context.
-- `host`: host genotype or accession.
-- `isolate_clean`: cleaned isolate identifier.
-- `round`: regrowth comparison round when applicable.
-- `n`: number of underlying observations represented by the summary row.
-- `p`: severe-disease probability.
-- `B`: barrier summary, `-ln(p)`, when finite.
-- `mean_score`: mean disease score.
-- structural columns such as `thickness_mean` or `leaf_angle_mean` when applicable.
+## `results/mixture_results.csv`
+
+One plant-level mixture test per source experiment. The contrast is:
+
+```text
+mixture score - mean(dose-matched component scores)
+```
+
+The three dose-specific contrasts are averaged within plant before the exact sign test.
+
+## `results/mixture_by_dose.csv`
+
+Descriptive dose-specific mixture contrasts, component doses, sign counts, and score summaries.
+# Data dictionary
+
+## `data/recovered_ordinal_scores.csv`
+
+One row per digit-level technical subscore.
+
+| Field | Meaning |
+|---|---|
+| `experiment_id` | Stable source-experiment identifier |
+| `experiment_label` | Reader-facing experiment label |
+| `publication_status` | `published` or `historical` |
+| `source_workbook` | Source workbook |
+| `source_row`, `source_column` | Original workbook location |
+| `host` | Host genotype or accession |
+| `host_type` | Sorghum or johnsongrass |
+| `plant_id` | Block-specific plant identifier |
+| `treatment_class` | `single` or `mixture` |
+| `isolate_1`, `isolate_2` | Component isolate identities |
+| `mixture_ratio` | Mixture ratio when applicable |
+| `total_dose_conidia_per_ml` | Applied single-isolate dose or total mixture dose |
+| `component_dose_conidia_per_ml` | Dose of each component in the treatment |
+| `subsample_id` | Technical subscore index within a plant-treatment cell |
+| `ordinal_score` | Disease score from 1 to 5 |
+
+## `data/recovered_plant_condition_means.csv`
+
+One row per plant-by-treatment cell. `plant_mean_score` is the mean of the digit-level technical subscores in that cell.
+
+## `data/experiment_design.csv`
+
+Source experiment, publication status, assay scope, host, isolates, plant counts, dose series, mixture ratio, metadata limits, and allowed inference.
+
+## `results/dose_trend_results.csv`
+
+Plant-level exact Page trend results, descriptive effect summaries, and family-specific Holm-adjusted P values.
+
+## `results/ordinal_gee_sensitivity.csv`
+
+Cumulative-logit ordinal GEE sensitivity results, clustered by plant.
+
+## `results/mixture_results.csv`
+
+One plant-level mixture test per source experiment. The contrast is:
+
+```text
+mixture score - mean(dose-matched component scores)
+```
+
+The three dose-specific contrasts are averaged within plant before the exact sign test.
+
+## `results/mixture_by_dose.csv`
+
+Descriptive dose-specific mixture contrasts, component doses, sign counts, and score summaries.
