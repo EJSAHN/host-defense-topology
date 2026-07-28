@@ -86,4 +86,4 @@ Input and output SHA-256 hashes are written to JSON manifests. The scripts stop 
 
 The workflow supports the manuscript *Plant-level ordinal analysis of inoculum-dose and mixed-isolate responses in sorghum anthracnose leaf assays*.
 
-A citable archive is available through Zenodo: https://doi.org/10.5281/zenodo.20574527
+A citable archive is available through Zenodo: 
