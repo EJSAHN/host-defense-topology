@@ -1,46 +1,59 @@
-#!/usr/bin/env python
-"""Command-line entry point for the host-response analysis pipeline."""
-
+#!/usr/bin/env python3
+"""Run plant-level recovery and source-experiment analyses."""
 from __future__ import annotations
 
 import argparse
+import subprocess
+import sys
 from pathlib import Path
 
-from conidia_analysis.pipeline import run_pipeline
 
-
-def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(
-        description="Generate host-response summary tables and Supplementary Data S1."
-    )
-    p.add_argument(
-        "--input-dir",
-        type=Path,
-        default=Path("."),
-        help="Directory containing the input master CSV files (default: current directory).",
-    )
-    p.add_argument(
-        "--output-dir",
-        type=Path,
-        default=Path("outputs"),
-        help="Directory to write output Excel files (default: ./outputs).",
-    )
-    p.add_argument(
-        "--severe-cutoff",
-        type=int,
-        default=4,
-        help="Score threshold for a severe infection event (default: 4).",
-    )
-    return p.parse_args()
+def run(command: list[str]) -> None:
+    print("+", " ".join(command))
+    subprocess.run(command, check=True)
 
 
 def main() -> None:
-    args = parse_args()
-    run_pipeline(
-        input_dir=args.input_dir,
-        output_dir=args.output_dir,
-        severe_cutoff=args.severe_cutoff,
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--input-dir",
+        type=Path,
+        default=None,
+        help="Optional directory containing the three source workbooks.",
     )
+    parser.add_argument(
+        "--recovered-dir",
+        type=Path,
+        default=Path("data"),
+        help="Directory containing recovered CSV files.",
+    )
+    parser.add_argument("--output-dir", type=Path, default=Path("results"))
+    args = parser.parse_args()
+
+    root = Path(__file__).resolve().parent
+    source = root / "src"
+
+    if args.input_dir is not None:
+        run(
+            [
+                sys.executable,
+                str(source / "recover_data.py"),
+                str(args.input_dir),
+                str(args.recovered_dir),
+            ]
+        )
+
+    run(
+        [
+            sys.executable,
+            str(source / "analyze_data.py"),
+            "--recovered-dir",
+            str(args.recovered_dir),
+            "--output-dir",
+            str(args.output_dir),
+        ]
+    )
+    print(f"Completed. Tables are in {args.output_dir.resolve()}")
 
 
 if __name__ == "__main__":
