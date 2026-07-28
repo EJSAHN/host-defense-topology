@@ -1,117 +1,89 @@
-# host-defense-topology
+# Plant-level analysis of sorghum anthracnose dose and mixture assays
 
-Reproducible analysis workflow for quantitative dose–response and mixed-isolate
-analyses of host-dependent disease response in the sorghum–*Colletotrichum
-sublineola* pathosystem.
+This repository contains the data-recovery and statistical workflow used to analyze ordinal disease scores from sorghum and johnsongrass excised-leaf assays with *Colletotrichum sublineola*.
 
-The repository contains curated master tables and table-generating analysis
-scripts. It intentionally does **not** include manuscript figure-generation code.
+The workflow preserves the source experiment and the plant as the independent experimental unit. Digit-level 1–5 scores recorded within each plant-by-treatment cell are treated as technical subsamples.
 
-> Note: the repository name retains the original project codename used during
-> development and in the archived Zenodo release (DOI: 10.5281/zenodo.20574527).
-> It does not imply a formal topological analysis; the manuscript reports
-> descriptive dose–response, high-dose severe-disease, Bliss-independence, and
-> regrowth summaries.
+## Questions addressed
 
-## Core definitions
+1. Within a source experiment and isolate, do ordinal disease scores increase across the ordered inoculum-dose series?
+2. Within a source experiment, does a 1:1 isolate mixture differ consistently from the mean response of its dose-matched component isolates?
 
-- Severe disease is defined as disease score >= 4 on the 1–5 acervulus-based scale.
-- Logistic dose-response fits estimate the inoculum concentration associated with
-  50% severe disease (`C50`) and the dose-response slope (`alpha`).
-- High-dose host response is summarized as the observed severe-disease probability
-  at the highest tested inoculum concentration (`P_max`); `B_dose = -ln(P_max)` is
-  reported only as a descriptive transformation for scale comparison, not as a
-  mechanistic or energetic measure of resistance.
-- Mixed-isolate outcomes are summarized as deviation from Bliss independence:
-  `delta_bliss = observed_p_severe - expected_p_severe`.
-- Regrowth effects are summarized as `delta_B = B_round2 - B_round1`.
+Published experiments form the primary analysis set. Two historical blocks with incomplete environmental metadata are analyzed separately and are used only for within-block comparisons.
 
-## Input files
+## Repository contents
 
-The repository contains the curated input tables used by the analysis scripts:
+```text
+src/
+  recover_data.py
+  analyze_data.py
+data/
+  recovered_ordinal_scores.csv
+  recovered_plant_condition_means.csv
+  experiment_design.csv
+  recovery_validation.txt
+  input_manifest.json
+results/
+  dose_trend_results.csv
+  ordinal_gee_sensitivity.csv
+  mixture_results.csv
+  mixture_by_dose.csv
+  analysis_summary.txt
+  analysis_manifest.json
+run_analysis.py
+DATA_DICTIONARY.md
+environment.yml
+CITATION.cff
+LICENSE
+```
 
-- `dose_response_master.csv`
-- `mixture_master.csv`
-- `barrier_summary_master.csv`
+Figure-generation code is not included in this repository.
 
-The master tables retain source-file provenance columns and cleaned isolate / mixture fields for reproducible filtering, grouping, and audit checks.
+## Quick start
 
-## Environment
-
-Create the conda environment:
+Create the environment:
 
 ```bash
 conda env create -f environment.yml
-conda activate host-response-analysis
+conda activate sorghum-dose-mixture
 ```
 
-An existing environment with `pandas`, `numpy`, `statsmodels`, `scipy`, and `openpyxl` can also run the scripts.
-
-## Run the primary analysis
+Run the analyses from the recovered data supplied in `data/`:
 
 ```bash
-python run_analysis.py --input-dir . --output-dir outputs
+python run_analysis.py --recovered-dir data --output-dir results
 ```
 
-This writes the primary derived summary tables and a multi-sheet supplementary workbook:
-
-- `outputs/Supplementary_Data_S1.xlsx`
-- `outputs/dose_response_summary.xlsx`
-- `outputs/dose_response_fit_details.xlsx`
-- `outputs/high_dose_barrier_summary.xlsx`
-- `outputs/high_dose_barrier_details.xlsx`
-- `outputs/mixed_isolate_bliss_summary.xlsx`
-- `outputs/mixed_isolate_single_controls.xlsx`
-- `outputs/mixed_isolate_host_env_summary.xlsx`
-- `outputs/regrowth_barrier_changes.xlsx`
-- `outputs/structural_comparison_summary.xlsx`
-- `outputs/host_response_summary.xlsx`
-- `outputs/manifest.json`
-
-## Run the extended table analysis
+To reconstruct the recovered data from the three source workbooks:
 
 ```bash
-python run_extended_analysis.py --input-dir . --output-dir extended_outputs --n-bootstrap 5000 --seed 42
+python run_analysis.py --input-dir /path/to/source_workbooks --recovered-dir data --output-dir results
 ```
 
-This writes uncertainty summaries, model diagnostics, cutoff-sensitivity analyses, and data-structure audits as tables only:
-
-- `extended_outputs/tables/dose_response_fit_uncertainty.csv`
-- `extended_outputs/tables/high_dose_barrier_uncertainty.csv`
-- `extended_outputs/tables/mixed_isolate_bliss_uncertainty.csv`
-- `extended_outputs/tables/regrowth_deltaB_uncertainty.csv`
-- `extended_outputs/tables/cutoff_sensitivity_dose_response.csv`
-- `extended_outputs/tables/cutoff_sensitivity_barrier.csv`
-- `extended_outputs/tables/cutoff_sensitivity_bliss.csv`
-- `extended_outputs/tables/continuous_score_trend_sensitivity.csv`
-- `extended_outputs/tables/pooled_dose_model_sensitivity.csv`
-- `extended_outputs/tables/host_backgrounds.csv`
-- `extended_outputs/tables/isolate_inventory.csv`
-- `extended_outputs/tables/mixed_isolate_composition_audit.csv`
-- `extended_outputs/tables/mixed_isolate_single_controls.csv`
-- `extended_outputs/Extended_Analysis_Tables.xlsx`
-- `extended_outputs/extended_analysis_manifest.json`
-
-## Repository structure
+The required workbook names are:
 
 ```text
-.
-├── conidia_analysis/
-│   ├── pipeline.py
-│   ├── extended_analysis.py
-│   └── utils.py
-├── dose_response_master.csv
-├── mixture_master.csv
-├── barrier_summary_master.csv
-├── run_analysis.py
-├── run_extended_analysis.py
-├── environment.yml
-├── DATA_DICTIONARY.md
-└── README.md
+Raw score2 (1).xlsx
+Raw score2 (2).xlsx
+Experiment 3 Leaf Assay-2.xlsx
 ```
 
-## Notes
+## Statistical approach
 
-The master data use cleaned isolate and mixture fields to separate single-isolate and mixed-isolate records. In the BTx398 mixed-isolate block, the three-component mixture is represented as `AMP99+AMP155+AMP170`, consistent with the source records and component columns.
+- Exact conditional Page tests evaluate increasing dose trends within source experiment and isolate, using plant as the block.
+- Holm adjustment is applied separately to the published primary family and the historical secondary family.
+- A cumulative-logit ordinal generalized estimating equation, clustered by plant and weighted so each plant-treatment cell has equal total weight, is provided as a sensitivity analysis.
+- Mixture effects are summarized as plant-level contrasts between the 1:1 mixture and the mean of the two dose-matched component isolates.
+- One exact two-sided sign test is performed per source experiment, with Holm adjustment within the published and historical families.
 
-Generated output directories are not tracked in this clean repository package. Re-running the scripts from the master tables will regenerate the table outputs.
+No pooled host effect is estimated because host, isolate, and source experiment are not fully crossed.
+
+## Reproducibility
+
+Input and output SHA-256 hashes are written to JSON manifests. The scripts stop when plant labels, treatment cells, dose matching, or score ranges fail validation.
+
+## Associated manuscript and archive
+
+The workflow supports the manuscript *Plant-level ordinal analysis of inoculum-dose and mixed-isolate responses in sorghum anthracnose leaf assays*.
+
+A citable archive is available through Zenodo: https://doi.org/10.5281/zenodo.20574527
