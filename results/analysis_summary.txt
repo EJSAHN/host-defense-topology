@@ -1,0 +1,29 @@
+Source-experiment analysis summary
+==================================
+
+Dose analyses
+-------------
+Experiment 1 | BTx398 | AMP155: exact Page P=8.16894e-12; Holm P=8.16894e-11; median plant rho=0.949; mean low/high=1.000/3.111.
+Experiment 1 | BTx398 | AMP170: exact Page P=0.0010366; Holm P=0.00310981; median plant rho=0.651; mean low/high=1.000/1.333.
+Experiment 2 | RTx2536 | AMP207: exact Page P=5.51555e-09; Holm P=4.96399e-08; median plant rho=0.885; mean low/high=1.000/3.056.
+Experiment 2 | RTx2536 | AMP77: exact Page P=6.55591e-07; Holm P=4.58914e-06; median plant rho=0.786; mean low/high=1.000/1.889.
+Experiment 3 | BTx398 | AMP170: exact Page P=7.41436e-07; Holm P=4.58914e-06; median plant rho=0.754; mean low/high=1.000/4.571.
+Experiment 3 | BTx398 | AMP99: exact Page P=0.0452943; Holm P=0.0452943; median plant rho=0.235; mean low/high=3.524/3.286.
+Experiment 4 | Theis | AMP170: exact Page P=2.37183e-05; Holm P=9.48731e-05; median plant rho=0.698; mean low/high=1.000/2.333.
+Experiment 4 | Theis | AMP99: exact Page P=0.0043416; Holm P=0.0086832; median plant rho=0.515; mean low/high=1.000/1.833.
+Experiment 5 | SH1152 | FSP35: exact Page P=2.48057e-07; Holm P=1.98445e-06; median plant rho=0.845; mean low/high=1.000/2.556.
+Experiment 5 | SH1152 | FSP53: exact Page P=1.08671e-05; Holm P=5.43353e-05; median plant rho=0.903; mean low/high=1.000/2.222.
+Historical block 1 | RTx2536 | AMP20: exact Page P=5.46827e-08; Holm P=2.18731e-07; median plant rho=0.803; mean low/high=1.056/4.778.
+Historical block 1 | RTx2536 | AMP27: exact Page P=0.0563712; Holm P=0.0563712; median plant rho=0.321; mean low/high=2.556/4.833.
+Historical block 2 | IS18760 | AMP20: exact Page P=1.18927e-06; Holm P=2.37854e-06; median plant rho=0.800; mean low/high=1.000/2.778.
+Historical block 2 | IS18760 | AMP27: exact Page P=5.52245e-08; Holm P=2.18731e-07; median plant rho=0.883; mean low/high=1.000/3.000.
+
+Mixture analyses
+----------------
+Experiment 1 | BTx398 | AMP155 + AMP170: mean contrast=0.222; exact sign P=0.21875; Holm P=0.4375.
+Experiment 2 | RTx2536 | AMP207 + AMP77: mean contrast=0.537; exact sign P=0.03125; Holm P=0.15625.
+Experiment 3 | BTx398 | AMP170 + AMP99: mean contrast=-0.262; exact sign P=1; Holm P=1.
+Experiment 4 | Theis | AMP170 + AMP99: mean contrast=1.111; exact sign P=0.03125; Holm P=0.15625.
+Experiment 5 | SH1152 | FSP35 + FSP53: mean contrast=0.491; exact sign P=0.03125; Holm P=0.15625.
+Historical block 1 | RTx2536 | AMP20 + AMP27: mean contrast=1.083; exact sign P=0.03125; Holm P=0.0625.
+Historical block 2 | IS18760 | AMP20 + AMP27: mean contrast=-0.199; exact sign P=0.375; Holm P=0.375.

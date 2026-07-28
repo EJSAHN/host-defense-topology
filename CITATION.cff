@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Plant-level analysis of sorghum anthracnose dose and mixture assays
+message: Please cite the associated manuscript and archived software release.
+type: software
+version: 2.0.0
+date-released: 2026-07-28
+authors:
+  - family-names: Ahn
+    given-names: Ezekiel
+  - family-names: Lim
+    given-names: Seunghyun
+  - family-names: Baek
+    given-names: Insuck
+  - family-names: Prom
+    given-names: Louis K.
+  - family-names: Kim
+    given-names: Moon S.
+  - family-names: Meinhardt
+    given-names: Lyndel W.
+  - family-names: Magill
+    given-names: Clint
+repository-code: https://github.com/EJSAHN/host-defense-topology
+url: https://doi.org/10.5281/zenodo.20574527
+license: CC0-1.0

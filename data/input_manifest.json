@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "filename": "Experiment 3 Leaf Assay-2.xlsx",
+      "sha256": "e08514e07e161dee2fc013eded8132dcb2c60182f91f1dbcfac0253e3e0f0fc0",
+      "bytes": 6960
+    },
+    {
+      "filename": "Raw score2 (1).xlsx",
+      "sha256": "74ccb911db053406833aeab2489aa9f8770d679e6e88cce035df6ae65bbbaf54",
+      "bytes": 9119
+    },
+    {
+      "filename": "Raw score2 (2).xlsx",
+      "sha256": "bfb571ec640d64a0c7ba4c1c82f48bb5e72fcd7387a3ff66cee909c8ff3ae05b",
+      "bytes": 9248
+    }
+  ]
+}

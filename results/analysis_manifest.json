@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "filename": "recovered_ordinal_scores.csv",
+      "sha256": "d819418941aac7113d8b69ee7b0d458af38210c31d9ab8e6d18796db40c5b3ee"
+    },
+    {
+      "filename": "recovered_plant_condition_means.csv",
+      "sha256": "cf797a85f517566608ad45357fe5ed76d89b78865fcb9fe4a0a087a41dfa526a"
+    },
+    {
+      "filename": "experiment_design.csv",
+      "sha256": "71aa48a29127867c3fa9ab8a4cf47a9b0d4a2ac63c183bd09d6d5201da66aefc"
+    }
+  ],
+  "outputs": [
+    {
+      "filename": "dose_trend_results.csv",
+      "sha256": "aa0cc70759595bf8c1859f5b42a74cc66b87533158cff11ab9ccdd4367af3654"
+    },
+    {
+      "filename": "mixture_by_dose.csv",
+      "sha256": "f8b8e33b0ab2220cc8c3c18d706de70566567896e1a867d87c1375147d5cc8ab"
+    },
+    {
+      "filename": "mixture_results.csv",
+      "sha256": "cdbc0baa6a7711abb03e154c0d0ba931ba888b6af1e4c62c56d2eedb44480c60"
+    },
+    {
+      "filename": "ordinal_gee_sensitivity.csv",
+      "sha256": "4afee0d02374c4c23c63e1fb34ff9416d8b95eefda9d148100a0ec763b203d8b"
+    }
+  ]
+}

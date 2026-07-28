@@ -1,0 +1,16 @@
+Recovery validation
+===================
+Source experiments: 7
+Block-specific plants: 43
+Plant-condition cells: 645
+Ordinal technical scores: 1937
+Technical subsamples per cell: {3: 643, 4: 2}
+Ordinal score counts: {1: 1003, 2: 371, 3: 151, 4: 114, 5: 298}
+
+E1_BTx398_AMP155_AMP170: 6 aligned plants; 90 plant-condition cells; 270 ordinal subscores.
+E2_RTx2536_AMP77_AMP207: 6 aligned plants; 90 plant-condition cells; 270 ordinal subscores.
+E3_BTx398_AMP99_AMP170: 7 aligned plants; 105 plant-condition cells; 315 ordinal subscores.
+H1_RTx2536_AMP20_AMP27: 6 aligned plants; 90 plant-condition cells; 270 ordinal subscores.
+H2_IS18760_AMP20_AMP27: 6 aligned plants; 90 plant-condition cells; 272 ordinal subscores.
+E4_Theis_AMP99_AMP170: 6 aligned plants; 90 plant-condition cells; 270 ordinal subscores.
+E5_SH1152_FSP35_FSP53: 6 aligned plants; 90 plant-condition cells; 270 ordinal subscores.
