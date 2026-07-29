@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: Plant-level analysis of sorghum anthracnose dose and mixture assays
-message: Please cite the associated manuscript and archived software release.
+message: Please cite the associated manuscript and GitHub release v2.0.0.
 type: software
 version: 2.0.0
 date-released: 2026-07-28
@@ -20,3 +20,4 @@ authors:
   - family-names: Magill
     given-names: Clint
 repository-code: https://github.com/EJSAHN/host-defense-topology
+url: https://github.com/EJSAHN/host-defense-topology/releases/tag/v2.0.0
