@@ -78,6 +78,12 @@ Experiment 3 Leaf Assay-2.xlsx
 
 No pooled host effect is estimated because host, isolate, and source experiment are not fully crossed.
 
+## Version
+
+The analyses associated with the manuscript are preserved in GitHub release **v2.0.0**:
+
+https://github.com/EJSAHN/host-defense-topology/releases/tag/v2.0.0
+
 ## Reproducibility
 
 Input and output SHA-256 hashes are written to JSON manifests. The scripts stop when plant labels, treatment cells, dose matching, or score ranges fail validation.
