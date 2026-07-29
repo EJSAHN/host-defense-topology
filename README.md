@@ -82,8 +82,3 @@ No pooled host effect is estimated because host, isolate, and source experiment 
 
 Input and output SHA-256 hashes are written to JSON manifests. The scripts stop when plant labels, treatment cells, dose matching, or score ranges fail validation.
 
-## Associated manuscript and archive
-
-The workflow supports the manuscript *Plant-level ordinal analysis of inoculum-dose and mixed-isolate responses in sorghum anthracnose leaf assays*.
-
-A citable archive is available through Zenodo: 
