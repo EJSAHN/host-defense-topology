@@ -43,6 +43,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Iterable
 
+ZERO_TOL = 1e-12
+
 import numpy as np
 from scipy import stats
 from statsmodels.genmod.cov_struct import Independence
@@ -115,13 +117,24 @@ def exact_page_test(matrix: np.ndarray) -> tuple[int, float, int]:
     return observed, upper_tail / total, len(combined)
 
 
-def sign_test(values: Iterable[float]) -> dict[str, float | int]:
+def normalize_zero(values: Iterable[float]) -> np.ndarray:
+    """Set round-off-level contrasts to exact zero before sign counting."""
     array = np.asarray(list(values), dtype=float)
+    array[np.isclose(array, 0.0, atol=ZERO_TOL, rtol=0.0)] = 0.0
+    return array
+
+
+def sign_test(values: Iterable[float]) -> dict[str, float | int]:
+    array = normalize_zero(values)
     positive = int((array > 0).sum())
     negative = int((array < 0).sum())
     zero = int((array == 0).sum())
     nonzero = positive + negative
     p_value = stats.binomtest(positive, nonzero, 0.5).pvalue if nonzero else 1.0
+
+    def clean_summary(value: float) -> float:
+        return 0.0 if abs(float(value)) <= ZERO_TOL else float(value)
+
     return {
         "plants_total": int(array.size),
         "plants_nonzero": nonzero,
@@ -129,10 +142,10 @@ def sign_test(values: Iterable[float]) -> dict[str, float | int]:
         "negative": negative,
         "zero": zero,
         "exact_sign_p": float(p_value),
-        "mean_contrast": float(array.mean()),
-        "median_contrast": float(np.median(array)),
-        "min_contrast": float(array.min()),
-        "max_contrast": float(array.max()),
+        "mean_contrast": clean_summary(array.mean()),
+        "median_contrast": clean_summary(np.median(array)),
+        "min_contrast": clean_summary(array.min()),
+        "max_contrast": clean_summary(array.max()),
     }
 
 
@@ -366,6 +379,8 @@ def analyze(recovered_dir: Path, output_dir: Path) -> None:
                 score_b = lookup[(plant, "single", isolate_b, component_dose)]
                 control_average = (score_a + score_b) / 2.0
                 contrast = mixture_score - control_average
+                if abs(contrast) <= ZERO_TOL:
+                    contrast = 0.0
                 contrasts.append(contrast)
                 mixture_values.append(mixture_score)
                 control_averages.append(control_average)
@@ -390,7 +405,9 @@ def analyze(recovered_dir: Path, output_dir: Path) -> None:
             dose_specific_results.append(dose_record)
 
         plant_average_contrasts = [
-            float(np.mean(plant_contrasts[plant])) for plant in plants
+            0.0 if abs(float(np.mean(plant_contrasts[plant]))) <= ZERO_TOL
+            else float(np.mean(plant_contrasts[plant]))
+            for plant in plants
         ]
         mixture_record = {
             "analysis_family": family_name(design["publication_status"]),
