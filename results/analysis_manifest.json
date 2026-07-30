@@ -20,11 +20,11 @@
     },
     {
       "filename": "mixture_by_dose.csv",
-      "sha256": "f8b8e33b0ab2220cc8c3c18d706de70566567896e1a867d87c1375147d5cc8ab"
+      "sha256": "af07fc39898f07e16e328b6a2ccc67a57c5b7e944dfe678a21b87786caf6e8a5"
     },
     {
       "filename": "mixture_results.csv",
-      "sha256": "cdbc0baa6a7711abb03e154c0d0ba931ba888b6af1e4c62c56d2eedb44480c60"
+      "sha256": "59d14b7ad666700a5889744761c52031d1d426e2bad26deb4a316337e0ca1159"
     },
     {
       "filename": "ordinal_gee_sensitivity.csv",
