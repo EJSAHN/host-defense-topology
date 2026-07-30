@@ -20,10 +20,10 @@ Historical block 2 | IS18760 | AMP27: exact Page P=5.52245e-08; Holm P=2.18731e-
 
 Mixture analyses
 ----------------
-Experiment 1 | BTx398 | AMP155 + AMP170: mean contrast=0.222; exact sign P=0.21875; Holm P=0.4375.
+Experiment 1 | BTx398 | AMP155 + AMP170: mean contrast=0.222; exact sign P=0.0625; Holm P=0.15625.
 Experiment 2 | RTx2536 | AMP207 + AMP77: mean contrast=0.537; exact sign P=0.03125; Holm P=0.15625.
 Experiment 3 | BTx398 | AMP170 + AMP99: mean contrast=-0.262; exact sign P=1; Holm P=1.
 Experiment 4 | Theis | AMP170 + AMP99: mean contrast=1.111; exact sign P=0.03125; Holm P=0.15625.
 Experiment 5 | SH1152 | FSP35 + FSP53: mean contrast=0.491; exact sign P=0.03125; Holm P=0.15625.
 Historical block 1 | RTx2536 | AMP20 + AMP27: mean contrast=1.083; exact sign P=0.03125; Holm P=0.0625.
-Historical block 2 | IS18760 | AMP20 + AMP27: mean contrast=-0.199; exact sign P=0.375; Holm P=0.375.
+Historical block 2 | IS18760 | AMP20 + AMP27: mean contrast=-0.199; exact sign P=0.125; Holm P=0.125.
