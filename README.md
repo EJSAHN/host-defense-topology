@@ -75,6 +75,7 @@ Experiment 3 Leaf Assay-2.xlsx
 - A cumulative-logit ordinal generalized estimating equation, clustered by plant and weighted so each plant-treatment cell has equal total weight, is provided as a sensitivity analysis.
 - Mixture effects are summarized as plant-level contrasts between the 1:1 mixture and the mean of the two dose-matched component isolates.
 - One exact two-sided sign test is performed per source experiment, with Holm adjustment within the published and historical families.
+- Contrasts with absolute values less than or equal to 1e-12 are treated as numerical ties before sign counting.
 
 No pooled host effect is estimated because host, isolate, and source experiment are not fully crossed.
 
