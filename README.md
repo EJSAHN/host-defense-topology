@@ -54,19 +54,23 @@ Run the analyses from the recovered data supplied in `data/`:
 python run_analysis.py --recovered-dir data --output-dir results
 ```
 
-To reconstruct the recovered data from the three source workbooks:
+### Optional source reconstruction
+
+For users with access to the original source workbooks, the recovered tables can be reconstructed with:
 
 ```bash
 python run_analysis.py --input-dir /path/to/source_workbooks --recovered-dir data --output-dir results
 ```
 
-The required workbook names are:
+Use the following preferred filenames:
 
 ```text
-source_workbook_A_published_experiments_1_2.xlsx
-source_workbook_B_published_experiment_3_historical_block_1.xlsx
-source_workbook_C_published_experiments_4_5_historical_block_2.xlsx
+source_workbook_A_experiments_1_2.xlsx
+source_workbook_B_experiment_3_historical_block_1.xlsx
+source_workbook_C_experiments_4_5_historical_block_2.xlsx
 ```
+
+The recovery script also recognizes the original local filenames for backward compatibility. Each accepted workbook is verified against the SHA-256 hash of the source file used for the analysis.
 
 ## Statistical approach
 
