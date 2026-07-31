@@ -51,6 +51,13 @@ class SectionSpec:
 
 
 @dataclass(frozen=True)
+class WorkbookSpec:
+    public_name: str
+    legacy_names: tuple[str, ...]
+    expected_sha256: str
+
+
+@dataclass(frozen=True)
 class ExperimentSpec:
     experiment_id: str
     experiment_label: str
@@ -63,11 +70,30 @@ class ExperimentSpec:
     sections: tuple[SectionSpec, ...]
 
 
+WORKBOOK_SPECS = (
+    WorkbookSpec(
+        "source_workbook_A_experiments_1_2.xlsx",
+        ("Raw score2 (1).xlsx",),
+        "74ccb911db053406833aeab2489aa9f8770d679e6e88cce035df6ae65bbbaf54",
+    ),
+    WorkbookSpec(
+        "source_workbook_B_experiment_3_historical_block_1.xlsx",
+        ("Raw score2 (2).xlsx",),
+        "bfb571ec640d64a0c7ba4c1c82f48bb5e72fcd7387a3ff66cee909c8ff3ae05b",
+    ),
+    WorkbookSpec(
+        "source_workbook_C_experiments_4_5_historical_block_2.xlsx",
+        ("Experiment 3 Leaf Assay-2.xlsx",),
+        "e08514e07e161dee2fc013eded8132dcb2c60182f91f1dbcfac0253e3e0f0fc0",
+    ),
+)
+
+
 EXPERIMENTS = (
     ExperimentSpec(
         "E1_BTx398_AMP155_AMP170",
         "Experiment 1",
-        "Raw score2 (1).xlsx",
+        "source_workbook_A_experiments_1_2.xlsx",
         "BTx398",
         "sorghum",
         "published",
@@ -82,7 +108,7 @@ EXPERIMENTS = (
     ExperimentSpec(
         "E2_RTx2536_AMP77_AMP207",
         "Experiment 2",
-        "Raw score2 (1).xlsx",
+        "source_workbook_A_experiments_1_2.xlsx",
         "RTx2536",
         "sorghum",
         "published",
@@ -97,7 +123,7 @@ EXPERIMENTS = (
     ExperimentSpec(
         "E3_BTx398_AMP99_AMP170",
         "Experiment 3",
-        "Raw score2 (2).xlsx",
+        "source_workbook_B_experiment_3_historical_block_1.xlsx",
         "BTx398",
         "sorghum",
         "published",
@@ -112,11 +138,11 @@ EXPERIMENTS = (
     ExperimentSpec(
         "H1_RTx2536_AMP20_AMP27",
         "Historical block 1",
-        "Raw score2 (2).xlsx",
+        "source_workbook_B_experiment_3_historical_block_1.xlsx",
         "RTx2536",
         "sorghum",
         "historical",
-        "Raw score2 (2).xlsx",
+        "Historical screening records",
         "Detailed environmental setpoints were not uniformly recoverable; analyses are restricted to within-block contrasts.",
         (
             SectionSpec(27, range(28, 34), "single", ("AMP20",), SINGLE_DOSES),
@@ -127,11 +153,11 @@ EXPERIMENTS = (
     ExperimentSpec(
         "H2_IS18760_AMP20_AMP27",
         "Historical block 2",
-        "Experiment 3 Leaf Assay-2.xlsx",
+        "source_workbook_C_experiments_4_5_historical_block_2.xlsx",
         "IS18760",
         "sorghum",
         "historical",
-        "Experiment 3 Leaf Assay-2.xlsx",
+        "Historical screening records",
         "Detailed environmental setpoints were not uniformly recoverable; analyses are restricted to within-block contrasts.",
         (
             SectionSpec(2, range(3, 9), "single", ("AMP20",), SINGLE_DOSES),
@@ -142,7 +168,7 @@ EXPERIMENTS = (
     ExperimentSpec(
         "E4_Theis_AMP99_AMP170",
         "Experiment 4",
-        "Experiment 3 Leaf Assay-2.xlsx",
+        "source_workbook_C_experiments_4_5_historical_block_2.xlsx",
         "Theis",
         "sorghum",
         "published",
@@ -157,7 +183,7 @@ EXPERIMENTS = (
     ExperimentSpec(
         "E5_SH1152_FSP35_FSP53",
         "Experiment 5",
-        "Experiment 3 Leaf Assay-2.xlsx",
+        "source_workbook_C_experiments_4_5_historical_block_2.xlsx",
         "SH1152",
         "johnsongrass",
         "published",
@@ -256,8 +282,46 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def resolve_source_workbooks(input_dir: Path) -> dict[str, Path]:
+    """Resolve preferred public filenames with legacy-name fallback.
+
+    Each accepted file is verified against the SHA-256 hash of the source
+    workbook used for the analysis. Outputs always use the preferred public
+    filename, so runs are identical whether the local files use preferred or
+    legacy names.
+    """
+    resolved: dict[str, Path] = {}
+    missing: list[str] = []
+
+    for spec in WORKBOOK_SPECS:
+        candidate_names = (spec.public_name, *spec.legacy_names)
+        existing = [input_dir / name for name in candidate_names if (input_dir / name).exists()]
+        if not existing:
+            missing.append(f"{spec.public_name} (accepted legacy name: {', '.join(spec.legacy_names)})")
+            continue
+
+        hashes = {path.name: sha256(path) for path in existing}
+        invalid = {name: digest for name, digest in hashes.items() if digest != spec.expected_sha256}
+        if invalid:
+            details = ", ".join(f"{name}: {digest}" for name, digest in sorted(invalid.items()))
+            raise ValueError(
+                f"Unexpected content for {spec.public_name}. "
+                f"Expected SHA-256 {spec.expected_sha256}; found {details}."
+            )
+
+        preferred_path = input_dir / spec.public_name
+        resolved[spec.public_name] = preferred_path if preferred_path.exists() else existing[0]
+
+    if missing:
+        raise FileNotFoundError(
+            "Missing required source workbooks:\n- " + "\n- ".join(missing)
+        )
+    return resolved
+
+
 def recover(input_dir: Path, output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
+    resolved_workbooks = resolve_source_workbooks(input_dir)
     sheet_cache: dict[str, dict[int, dict[int, str]]] = {}
     score_rows: list[dict] = []
     cell_rows: list[dict] = []
@@ -265,9 +329,7 @@ def recover(input_dir: Path, output_dir: Path) -> None:
     validation_messages: list[str] = []
 
     for experiment in EXPERIMENTS:
-        workbook_path = input_dir / experiment.source_workbook
-        if not workbook_path.exists():
-            raise FileNotFoundError(f"Missing required input: {workbook_path}")
+        workbook_path = resolved_workbooks[experiment.source_workbook]
         if experiment.source_workbook not in sheet_cache:
             sheet_cache[experiment.source_workbook] = read_first_sheet(workbook_path)
         rows = sheet_cache[experiment.source_workbook]
@@ -288,7 +350,7 @@ def recover(input_dir: Path, output_dir: Path) -> None:
                     raw_value = row.get(column, "")
                     if raw_value == "":
                         raise ValueError(
-                            f"Missing treatment cell: {experiment.source_workbook}, "
+                            f"Missing treatment cell: {workbook_path.name}, "
                             f"row {source_row}, column {column + 1}."
                         )
                     scores = parse_ordinal_code(raw_value)
@@ -413,11 +475,11 @@ def recover(input_dir: Path, output_dir: Path) -> None:
     manifest = {
         "inputs": [
             {
-                "filename": filename,
-                "sha256": sha256(input_dir / filename),
-                "bytes": (input_dir / filename).stat().st_size,
+                "filename": spec.public_name,
+                "sha256": sha256(resolved_workbooks[spec.public_name]),
+                "bytes": resolved_workbooks[spec.public_name].stat().st_size,
             }
-            for filename in sorted({experiment.source_workbook for experiment in EXPERIMENTS})
+            for spec in WORKBOOK_SPECS
         ]
     }
     (output_dir / "input_manifest.json").write_text(
@@ -427,7 +489,11 @@ def recover(input_dir: Path, output_dir: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("input_dir", type=Path, help="Directory containing the three source workbooks.")
+    parser.add_argument(
+        "input_dir",
+        type=Path,
+        help="Directory containing the three source workbooks under preferred or accepted legacy filenames.",
+    )
     parser.add_argument("output_dir", type=Path, help="Directory for recovered CSV files.")
     args = parser.parse_args()
     recover(args.input_dir, args.output_dir)
