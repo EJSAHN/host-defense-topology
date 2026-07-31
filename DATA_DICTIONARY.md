@@ -9,7 +9,7 @@ One row per digit-level technical subscore.
 | `experiment_id` | Stable source-experiment identifier |
 | `experiment_label` | Reader-facing experiment label |
 | `publication_status` | `published` or `historical` |
-| `source_workbook` | Source workbook |
+| `source_workbook` | Preferred public source-workbook filename |
 | `source_row`, `source_column` | Original workbook location |
 | `host` | Host genotype or accession |
 | `host_type` | Sorghum or johnsongrass |
