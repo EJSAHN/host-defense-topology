@@ -63,9 +63,9 @@ python run_analysis.py --input-dir /path/to/source_workbooks --recovered-dir dat
 The required workbook names are:
 
 ```text
-Raw score2 (1).xlsx
-Raw score2 (2).xlsx
-Experiment 3 Leaf Assay-2.xlsx
+source_workbook_A_published_experiments_1_2.xlsx
+source_workbook_B_published_experiment_3_historical_block_1.xlsx
+source_workbook_C_published_experiments_4_5_historical_block_2.xlsx
 ```
 
 ## Statistical approach
